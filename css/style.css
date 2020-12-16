@@ -1,17 +1,6 @@
-/* Main Styles --------------------- */
-
 body {
   overflow-x: hidden;
 }
-
-/* Element Styles --------------------- */
-
-.btn-lg {
-  padding: 20px;
-  border-radius: 3em;
-}
-
-/* Navigation --------------------- */
 
 .navbar .nav-link {
   font-size: 14px;
@@ -24,40 +13,31 @@ body {
   border-left: #444 3px solid;
 }
 
-/* Slider --------------------- */
-
 .carousel-item {
-  height: 550px;
-}
-
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 550px;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 450px;
 }
 
 .carousel-image-1 {
-  background: url('../img/pic-1.jpg');
+  background: url('../img/image1.jpg');
   background-size: cover;
 }
 
 .carousel-image-2 {
-  background: url('../img/pic-2.jpg');
+  background: url('../img/image2.jpg');
   background-size: cover;
 }
 
 .carousel-image-3 {
-  background: url('../img/pic-3.jpg');
+  background: url('../img/image3.jpg');
   background-size: cover;
 }
 
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url('../img/lights.jpg') no-repeat fixed;
+  background: url('../img/lights.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   text-align: center;
   color: #fff;
 }
@@ -74,7 +54,10 @@ body {
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url('../img/media.jpg') no-repeat fixed 0 -300px;
+  background: url('../img/media.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
   text-align: center;
   color: #fff;
 }
@@ -85,7 +68,9 @@ body {
 
 #page-header {
   height: 200px;
-  background: url('../img/pic-3.jpg') fixed 0 -360px;
+  background: url('../img/image1.jpg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
@@ -113,50 +98,3 @@ body {
   background: #000;
   color: #fff;
 }
-
-/* Media Queries ---------------- */
-
-@media (min-width: 576px) {
-
-  .carousel-caption {
-    margin-bottom: 50px;
-  }
-}
-
-@media (min-width: 645px) {
-
-  .carousel-caption {
-    margin-bottom: 70px;
-  }
-}
-
-@media (max-width: 716px) {
-
-  .display-3 {
-    font-size: 2.8em;
-  }
-
-  .carousel-caption {
-    padding-bottom: 90px;
-  }
-
-  .navbar-brand {
-    text-align: center;
-  }
-}
-
-@media (min-width: 1210px) {
-
-  .carousel-caption {
-    margin-bottom: 100px;
-  }
-}
-
-@media (min-width: 1700px) {
-
-  .carousel-caption {
-    margin-bottom: 140px;
-  }
-}
-
-
