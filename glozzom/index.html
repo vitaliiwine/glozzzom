@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Glozzzom</title>
+    <title>Glozzom</title>
 
     <!-- Font Awesome icons (free version) -->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
@@ -16,13 +16,13 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"/>
 
-    <!-- Core theme CSS-->
+    <!-- Core theme CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- Navigation-->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+<!-- Navigation -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
         <a href="index.html" class="navbar-brand">Glozzom</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -34,13 +34,13 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="store.html" class="nav-link">Store</a>
+                    <a href="about.html" class="nav-link">Store</a>
                 </li>
                 <li class="nav-item">
                     <a href="services.html" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about-us.html" class="nav-link">About Us</a>
+                    <a href="blog.html" class="nav-link">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
@@ -52,7 +52,6 @@
 
 <!-- Showcase slider -->
 <section id="showcase">
-
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -67,7 +66,7 @@
             <div class="carousel-item carousel-image-1 active">
                 <div class="dark-overlay">
                     <div class="container">
-                        <div class="carousel-caption d-block text-right">
+                        <div class="carousel-caption d-block text-right mb-5">
                             <h1 class="display-3">All new design. For the new generation.</h1>
                             <p class="lead">This time we have reinvented the core features of the design set. These
                                 curved edges and slim sides make it look and feel stunning.</p>
@@ -102,7 +101,7 @@
             <div class="carousel-item carousel-image-2">
                 <div class="dark-overlay">
                     <div class="container">
-                        <div class="carousel-caption d-block">
+                        <div class="carousel-caption d-none d-sm-block mb-5">
                             <h1 class="display-3">Precision and definition in every inch.</h1>
                             <p class="lead">An incomparable experience with the most progressive XDR screen in 3 size
                                 categories. You could never have it sharper before.</p>
@@ -132,35 +131,35 @@
                 </div>
             </div>
 
-            <!-- Slide 3-->
+            <!-- Slide 3 -->
             <div class="carousel-item carousel-image-3">
-                <div class="dark-overlay">
-                    <div class="container">
-                        <div class="carousel-caption d-block text-right">
-                            <h1 class="display-3">Unlimited speed. Undeniable power.</h1>
-                            <p class="lead">With our newest M1 chip coming along with 8 cores and 2 boosting
-                                coprocessors you have enough power to watch 4K blu-ray video and render Cinema 4D clip
-                                simultaneously.</p>
-                            <div class="d-flex" id="buttonThree">
-                                <button class="btn btn-success btn-lg ml-auto" data-toggle="collapse"
-                                        data-target="#collapseThree"
-                                        aria-expanded="true" aria-controls="collapseThree">
-                                    Learn more
-                                </button>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="buttonThree">
-                                <div class="card-body pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Amet corporis debitis delectus dolorum eum ex expedita impedit optio quia quis.
-                                    Adipisci labore laboriosam optio repudiandae unde. Iste iure magnam natus neque
-                                    quos suscipit voluptatibus? Ad aspernatur earum maxime odit optio quae ut vel
-                                    veniam! Doloribus ducimus ipsam sapiente unde veniam.
-                                </div>
+                <div class="container">
+                    <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                        <h1 class="display-3">Unlimited speed. Undeniable power.</h1>
+                        <p class="lead">With our newest M1 chip coming along with 8 cores and 2 boosting
+                            coprocessors you have enough power to watch 4K blu-ray video and render Cinema 4D clip
+                            simultaneously.</p>
+
+                        <!-- Collapse -->
+                        <div class="d-flex" id="buttonThree">
+                            <button class="btn btn-success btn-lg ml-auto" data-toggle="collapse"
+                                    data-target="#collapseThree"
+                                    aria-expanded="true" aria-controls="collapseThree">
+                                Learn more
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="buttonThree">
+                            <div class="card-body pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Amet corporis debitis delectus dolorum eum ex expedita impedit optio quia quis.
+                                Adipisci labore laboriosam optio repudiandae unde. Iste iure magnam natus neque
+                                quos suscipit voluptatibus? Ad aspernatur earum maxime odit optio quae ut vel
+                                veniam! Doloribus ducimus ipsam sapiente unde veniam.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- /Carousel inner -->
+        </div>
 
         <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
             <span class="carousel-control-prev-icon"></span>
@@ -169,7 +168,6 @@
         <a href="#myCarousel" data-slide="next" class="carousel-control-next">
             <span class="carousel-control-next-icon"></span>
         </a>
-
     </div>
 </section>
 
@@ -179,17 +177,17 @@
         <div class="row">
             <div class="col-md-4 mb-4 text-center">
                 <i class="fas fa-cog fa-3x mb-2"></i>
-                <h3>Gears</h3>
+                <h3>Turning Gears</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
             <div class="col-md-4 mb-4 text-center">
                 <i class="fas fa-cloud fa-3x mb-2"></i>
-                <h3>Cloud</h3>
+                <h3>Sending Data</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
             <div class="col-md-4 mb-4 text-center">
                 <i class="fas fa-cart-plus fa-3x mb-2"></i>
-                <h3>Store</h3>
+                <h3>Making Money</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
         </div>
@@ -336,6 +334,7 @@
         </div>
     </div>
 </footer>
+
 
 <!-- VIDEO MODAL -->
 <div class="modal fade" id="videoModal">
