@@ -85,7 +85,7 @@ body {
 
 #page-header {
   height: 200px;
-  background: url('../img/pic-3.jpg') fixed 0 -360px;
+  background: url('../img/image3.jpg') fixed 0 -360px;
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
@@ -142,6 +142,10 @@ body {
 
   .navbar-brand {
     text-align: center;
+  }
+
+  .btn-lg {
+    padding: 10px;
   }
 }
 
