@@ -13,6 +13,10 @@ body {
 
 /* Navigation --------------------- */
 
+.navbar {
+  box-shadow: 8px 0 15px rgba(38, 38, 38, 0.94);
+}
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -57,7 +61,7 @@ body {
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url('../img/lights.jpg') no-repeat fixed;
+  background: #ce93d8;
   text-align: center;
   color: #fff;
 }
@@ -74,7 +78,7 @@ body {
 #video-play {
   position: relative;
   min-height: 200px;
-  background: url('../img/media.jpg') no-repeat fixed 0 -300px;
+  background: #6a1b9a;
   text-align: center;
   color: #fff;
 }
@@ -107,6 +111,10 @@ body {
 #faq .card-body,
 #faq .card-header {
   background: #333;
+}
+
+.fas {
+ color: #4B515D;
 }
 
 #main-footer {
